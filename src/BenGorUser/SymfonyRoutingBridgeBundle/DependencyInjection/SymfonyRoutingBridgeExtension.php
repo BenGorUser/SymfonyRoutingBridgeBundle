@@ -18,7 +18,7 @@ use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 
 /**
- * BenGor user bundle extension class.
+ * Symfony routing bridge bundle extension class.
  *
  * @author Beñat Espiña <benatespina@gmail.com>
  */
