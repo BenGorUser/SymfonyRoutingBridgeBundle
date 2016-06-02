@@ -9,6 +9,7 @@
 services:
     bengor.user.infrastructure.routing.symfony_url_generator:
         class: BenGorUser\SymfonyRoutingBridge\Infrastructure\Routing\SymfonyUserUrlGenerator
+        public: false
         arguments:
             - '@router'
     bengor_user.symfony_url_generator:
