@@ -18,11 +18,11 @@
     ],
     "require": {
         "php": "^5.5 || ^7.0",
-        "bengor-user/symfony-routing-bridge": "^1.0",
-        "bengor-user/user-bundle": "^0.6 || ^0.7"
+        "bengor-user/symfony-routing-bridge": "^2.0",
+        "bengor-user/user-bundle": "^0.8"
     },
     "require-dev": {
-        "friendsofphp/php-cs-fixer": "^1.11",
+        "friendsofphp/php-cs-fixer": "^2.0",
         "phpspec/phpspec": "^2.5"
     },
     "scripts": {
@@ -40,7 +40,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "1.1.x-dev"
+            "dev-master": "1.2.x-dev"
         }
     }
 }
